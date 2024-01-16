@@ -1,7 +1,7 @@
 // function to returns a license badge
 function renderLicenseBadge(license) {
   if (license !== "none") {
-    return `![Github license](https://img.shields.io/badge/license-${license}.svg)`;
+    return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;
   }
   return "";
 }
@@ -18,8 +18,8 @@ ${data.link}
 ![alt-text](${data.screenshot})
 ## Table of Contents
 * [Installation](#installation)
-* [How to Use This Application](#HowtoUseThisApplication)
-* [Application Licenses](#licence)
+* [How to Use This Application](#how)
+* [Application Licenses](#license)
 * [Contributors](#contributors)
 * [Testing](#tests)
 * [Questions](#questions)
@@ -28,7 +28,7 @@ ${data.installation}
 ## How to Use This Application:
 ${data.usage}
 ## License
-The liscese used in this project is: ${data.license}
+The license used in this project is: ${data.license}
 ## Contributors
 ${data.contributors}
 ## Tests

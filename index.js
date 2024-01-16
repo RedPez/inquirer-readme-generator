@@ -83,8 +83,8 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
   inquirer.prompt(questions).then((responses) => {
-    console.log("Creating Professional Sample12.md File...");
-    writeToFile("./Sample12.md", generateMarkdown({ ...responses }));
+    console.log("Creating Professional SampleReadme.md File...");
+    writeToFile("./SampleReadMe.md", generateMarkdown({ ...responses }));
   });
 }
 init();
